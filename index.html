@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+</head>
+<body>
+  <main class="container">
+    <img src="./images/logo.svg" alt="" class="logo">
+    <img src="./images/hero-mobile.jpg" class="img-hero-mobile">
+    <img src="./images/hero-desktop.jpg" class="img-hero-desktop">
+    <section class="content">
+      <h1 class="content__tittle"><span>We're</span> coming soon</h1>
+      <p class="content__paragraph">
+        Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form class="form">
+        <div class="form__grupo-input">
+          <input type="email" name="email" id="email" placeholder="Email Address" class="email-input">
+          <i class="fas fa-exclamation-circle hidden"></i>
+          <input type="image" value="" src="./images/icon-arrow.svg" class="button-submit">
+        </div>
+        <p class="form__input-error">Please provide a valid email</p>
+      </form>
+    </section>
+
+  </main>
+
+  <script src="form.js"></script>
+
+</body>
+</html>
