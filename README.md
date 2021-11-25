@@ -2,6 +2,8 @@
 
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.png)
 
+https://vblanyer.github.io/base-apparel-coming-soon-master/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
